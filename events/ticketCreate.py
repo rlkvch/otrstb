@@ -24,7 +24,7 @@ arg2 = sys.argv[2]
 def get_ticket():
     client = Client(config.CLIENT_URL, config.USER, config.PASSWD)
     client.session_create()
-    ticket = client.ticket_get_by_number(arg2)
+    ticket = client.ticket_get_by_number(arg1)
     result = ticket.to_dct()
     json_string = json.dumps(result)
     parsed_string = json.loads(json_string)
