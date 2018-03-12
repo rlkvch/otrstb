@@ -1,0 +1,5 @@
+BOT_TOKEN = ''
+CHANNEL_ID = ''
+USER = ''
+PASSWD = ''
+CLIENT_URL = ''
