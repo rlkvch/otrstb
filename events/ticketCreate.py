@@ -5,7 +5,7 @@ import socket
 import sys
 
 import requests
-import telebot
+import pyTelegramBotAPI
 from pyotrs import Article, Client, Ticket
 
 import config
